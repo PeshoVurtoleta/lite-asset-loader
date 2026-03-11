@@ -1,0 +1,44 @@
+{
+  "name": "lite-asset-loader",
+  "author": "Zahary Shinikchiev <shinikchiev@yahoo.com>",
+  "version": "1.0.0",
+  "description": "Production asset loading manager with concurrency control, retry logic, per-asset timeouts, and progress tracking for images, audio, fonts, JSON, and more.",
+  "type": "module",
+  "main": "AssetLoader.js",
+  "types": "AssetLoader.d.ts",
+  "exports": {
+    ".": {
+      "types": "./AssetLoader.d.ts",
+      "import": "./AssetLoader.js",
+      "default": "./AssetLoader.js"
+    }
+  },
+  "files": [
+    "AssetLoader.js",
+    "AssetLoader.d.ts",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "asset-loader",
+    "preloader",
+    "image-loader",
+    "font-loader",
+    "concurrency",
+    "retry",
+    "progress",
+    "game",
+    "loading-screen",
+    "lightweight"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
