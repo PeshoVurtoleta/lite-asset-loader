@@ -1,7 +1,7 @@
 {
   "name": "lite-asset-loader",
   "author": "Zahary Shinikchiev <shinikchiev@yahoo.com>",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Production asset loading manager with concurrency control, retry logic, per-asset timeouts, and progress tracking for images, audio, fonts, JSON, and more.",
   "type": "module",
   "main": "AssetLoader.js",
@@ -35,6 +35,15 @@
     "lightweight"
   ],
   "license": "MIT",
+  "homepage": "https://github.com/PeshoVurtoleta/lite-asset-loader#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeshoVurtoleta/lite-asset-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PeshoVurtoleta/lite-asset-loader/issues",
+    "email": "shinikchiev@yahoo.com"
+  },
   "devDependencies": {
     "vitest": "^1.0.0"
   },
