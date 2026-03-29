@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
-import { AssetLoader } from './AssetLoader.d.ts';
+import { AssetLoader } from './AssetLoader.js';
 
 // ──────────────────────────────────────────────
 //  Mock browser APIs
